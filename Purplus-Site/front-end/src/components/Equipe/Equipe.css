@@ -1,0 +1,49 @@
+.equipe, .equipe1, .equipe2, .equipe3{
+    margin-top: 40px;
+    width: 328px;
+    height: 450px;
+}
+h2{
+    font-family: 'Kanit';
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.equipe{
+    margin-left: -40px;
+}
+.equipe1, .equipe2{
+    margin-left: 60px;
+}
+
+.equipe3{
+    margin-left: 60px;
+    position: absolute;
+    clip:rect(0px, 294px, 450px,0px);
+}
+.assemble{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.texte_equipe{
+    width: 1306px;
+    text-align: center;
+}
+.droit, .gauche{
+    position: absolute;
+    width: 338px;
+    height: 450px;
+    top : 40px;
+}
+.gauche{
+    left: 0px;
+}
+.droit{
+    right: 0px;
+}
+.Equipe{
+    margin-top: 100px;
+}

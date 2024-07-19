@@ -1,0 +1,36 @@
+.Form{
+    background-color: rgba(255, 255, 255, 0.192);
+    border-radius: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    margin-top: 150px;
+    position: relative;
+}
+h3{
+    text-align: left;
+    margin-left: 50px;
+}
+.input{
+    position: relative;
+    background-color: #f5f5f59a;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h4{
+    color : #2616465d;
+    font-family: 'Inria Sans';
+    font-size: 34px;
+    font-weight: 300;
+    margin-left: 40px;
+    padding-left: 15px;
+    width: 1200px;
+}
+.inputMessage{
+    position: relative;
+    background-color: #f5f5f59a;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}

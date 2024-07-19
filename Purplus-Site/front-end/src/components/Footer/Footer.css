@@ -1,0 +1,39 @@
+.menuFooter{
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.lien, .lienX{
+    width: 30px;
+}
+.lienX{
+    height: auto;
+    width: auto;
+}
+.liens{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.minilogo{
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.FooterBK{
+    background-color: #F5EEFA;
+    filter: drop-shadow(50px 50px 50px rgba(0, 0, 0, 0.743));
+}
+.Figma{
+    color : #261646;
+    font-family: 'Inria Sans';
+    font-size: small;
+}

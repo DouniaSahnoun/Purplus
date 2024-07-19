@@ -1,0 +1,42 @@
+h3{
+    font-family: 'Kanit';
+    color : white;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.valeur .qual{
+    margin-left: 0px;
+}
+.valeur .innov{
+    margin-left: -10px;
+}
+.valeur{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+.innov, .qual, .integ, .eng
+{
+    width: 270px;
+    text-align: center;
+}
+.descrip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 70px;
+}
+.descrip p{
+    margin-top: 0;
+}
+.totalval{
+    background-color: rgba(255, 255, 255, 0.192);
+    border-radius: 110px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+}

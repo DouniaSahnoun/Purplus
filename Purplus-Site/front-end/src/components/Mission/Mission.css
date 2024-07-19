@@ -1,0 +1,32 @@
+.total{
+    background-color: rgba(255, 255, 255, 0.192);
+    margin-left: 0px;
+    height: 480px;
+    position: relative;
+}
+header{
+    margin-left: 0px;
+}
+h1{
+    font-family: 'Kanit';
+    color: white;
+    font-weight: 300;
+    font-size: 64px;
+    margin-left: 50px;
+}
+p{
+    font-family: 'Inria Sans';
+    font-size: 24px;
+    color: white;
+    margin-left: 50px;
+}
+.texte{
+    width: 728px;
+}
+.image{
+    width: 386px;
+    height: 311px;
+    position: absolute;
+    right: 100px;
+    top:90px;
+}

@@ -1,0 +1,43 @@
+:root{
+    --purple-color : #A662FF;
+    --dark : #261646;
+}
+header{
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 266px;
+}
+.Acceuil{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 734px;
+    height: 224px;
+    margin-left: 44px;
+}
+.btn-contact{
+    background-color: var(--purple-color);
+    color: #fff;
+    border: none;
+    padding: 18px 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+}
+.presentation{
+    font-family: 'Inria Sans';
+    width: 1200px;
+    font-size: 24px;
+    color: #261646;
+    text-align: center;
+    margin-left: 90px;
+}
