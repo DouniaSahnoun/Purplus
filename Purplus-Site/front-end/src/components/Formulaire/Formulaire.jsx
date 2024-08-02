@@ -3,8 +3,8 @@ import "./Formulaire.css"
 
 const Formulaire = () => {
   return (
-    <header className='Form'>
-      <h2>Vous etes</h2>
+    <header className='Form' id='contact'>
+      <h2 className='titre'>Vous etes</h2>
       <div className='info'>
         <h3>Nom</h3>
         <h4 className='input'>Nom</h4>
@@ -17,6 +17,7 @@ const Formulaire = () => {
         <h3>Votre Message</h3>
         <h4 className='inputMessage'>Entrez le message...</h4>
       </div>
+      <h3 className='btn-send'>Envoyer</h3>
       </header>
   )
 }

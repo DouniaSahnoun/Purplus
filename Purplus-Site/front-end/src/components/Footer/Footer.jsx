@@ -11,9 +11,9 @@ const Footer = () => {
       <img src={Xlogo} alt='X' className='lienX'/> </div>
       <p className='Figma'>Concu avec Figma</p>
       <div className='menuFooter'>
-      <h5>Acceuil</h5>
-      <h5>Qui sommes-nous?</h5>
-      <h5>Nos services</h5>
+      <a href='#Acceuil'>Acceuil</a>
+      <a href='#Mission'>Qui sommes-nous?</a>
+      <a>Nos services</a>
       </div>
     </header>
   )

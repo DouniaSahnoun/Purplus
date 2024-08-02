@@ -1,8 +1,8 @@
 .Form{
     background-color: rgba(255, 255, 255, 0.192);
     border-radius: 70px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-top: 50px;
     margin-top: 150px;
     position: relative;
@@ -10,6 +10,7 @@
 h3{
     text-align: left;
     margin-left: 50px;
+    font-size: 40px;
 }
 .input{
     position: relative;
@@ -17,11 +18,13 @@ h3{
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 90%;
 }
+
 h4{
     color : #2616465d;
     font-family: 'Inria Sans';
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 300;
     margin-left: 40px;
     padding-left: 15px;
@@ -33,4 +36,23 @@ h4{
     border-radius: 25px;
     padding-top: 10px;
     padding-bottom: 100px;
+    width: 90%;
+}
+.titre{
+    font-size: 55px;    
+}
+.btn-send{
+    color: black;
+    text-align: center;
+    margin-left: 38%;
+    background-color: #f5f5f59a;
+    border-radius: 80px;
+    width: 160px;
+    font-size: 30px;
+}
+.btn-send:hover{
+    background-color: white;
+}
+.btn-send:active{
+    background-color: #B780FF;
 }

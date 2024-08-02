@@ -5,7 +5,7 @@ import {Image} from "../../assets"
 const Mission = () => {
   return (
     <header>
-      <div className='total'>
+      <div className='total' id='Mission'>
       <h1> Notre Mission</h1>
       <p className='texte'>Chez Purplus, notre mission est de propulser votre entreprise vers de 
 nouveaux sommets en exploitant le pouvoir de la technologie. Nous nous 

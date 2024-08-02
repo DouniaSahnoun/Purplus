@@ -7,7 +7,16 @@
     text-transform: uppercase;
     font-family: 'Inter';
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
+    padding: 0;
+    gap:20px;
+    font-weight: 600;
+}
+.menuFooter a{
+    color: black;
+}
+.menuFooter a:hover{
+    color:#9747FF;
 }
 .lien, .lienX{
     width: 30px;
